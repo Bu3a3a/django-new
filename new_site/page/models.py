@@ -19,3 +19,7 @@ class Article(models.Model):
         ordering = ['-created_at']
         verbose_name = _('article')
         verbose_name_plural = _('articles')
+
+
+class Firm(models.Model):
+    address = models.TextField(max_length=900),

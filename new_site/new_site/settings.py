@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'polls',
     'page',
     'rest_framework',
+    'easy_maps',
 ]
 
 MIDDLEWARE = [
@@ -121,3 +122,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+EASY_MAPS_GOOGLE_MAPS_API_KEY = 'AIzaSyA9q69fpSM4db7gxRGnpuNMVBS2IPyU1xQ'
+# EASY_MAPS_GOOGLE_MAPS_API_KEY = 'AIzaSyBAykJiOdYXJzoDONxfpPlmoWQ7Vtyi0z0'

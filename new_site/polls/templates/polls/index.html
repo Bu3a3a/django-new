@@ -6,8 +6,9 @@
 </head>
 <body>
 {% load staticfiles %}
+{% load easy_maps_tags %}
 
-<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+<!--<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />-->
 
 {% if latest_question_list %}
     <ul>
@@ -19,6 +20,7 @@
     <p>No polls are available.</p>
 {% endif %}
 
+{% easy_map "Russia, Ekaterinburg, Mira 32" 300 400 %}
 
 </body>
 </html>
